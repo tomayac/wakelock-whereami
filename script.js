@@ -1,5 +1,5 @@
 (async () => {
-  
+  // Redirect to HTTPS  
   if (window.location.protocol !== 'https:') {
     window.location.protocol = 'https:';
   }
@@ -99,7 +99,6 @@
       stopTracking();
     } else {
       startTracking();
-    }
-    
+    }    
   });  
 })();
